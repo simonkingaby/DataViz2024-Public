@@ -1,3 +1,3 @@
 # DataViz2024-Public
 
-[[Anaconda/CheatSheet.md|Setting up your Anaconda environment]]
+[[Setting up your Anaconda environment|Anaconda/CheatSheet.md]]
