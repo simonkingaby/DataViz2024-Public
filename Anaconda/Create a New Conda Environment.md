@@ -6,10 +6,10 @@
 conda info -e
 ```
 
-## Initial Setup for a new AI environment
+## Initial Setup for a new Data environment
 
 ``` Bash
-conda create --name DataViz python=3.12
+conda create --name DataViz python=3.11
 conda activate DataViz
 conda install pandas
 conda install console_shortcut
@@ -24,7 +24,7 @@ pip install jupyter --upgrade
 ``` Bash
 python -m ipykernel install --user --name <other-env> --display-name "Python <ver.> (<other-env>)"
 For example,
-python -m ipykernel install --user --name DataViz --display-name "Python 3.12 (DataViz)"
+python -m ipykernel install --user --name DataViz --display-name "Python 3.11 (DataViz)"
 ```
 ### To remove a Kernel from Jupyter, simply run the following code:
 
@@ -60,7 +60,7 @@ conda env remove -n ENV_NAME
 
 ### To Launch Jupyter Lab
 
-PC:  From the Anaconda Prompt (AI):
+PC:  From the Anaconda Prompt (DataViz):
 
 ``` Bash
 jupyter lab
@@ -69,6 +69,6 @@ jupyter lab
 Mac:  From the Terminal:
 
 ``` Bash
-conda activate AI
+conda activate DataViz
 jupyter lab
 ```
