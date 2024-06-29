@@ -15,7 +15,10 @@ The following sections will provide step by step instructions for the steps abov
 ## 1. Create the DataViz2024 folder
 Follow these steps:
 1) Right-click the Desktop and create a New Folder
-2) Name it DataViz2024
+2) Name it Code Repos
+3) Open that folder
+4) Right-click and create a New Folder
+5) Name it DataViz2024
 
 ## 2. Create an SSH Key and Clone the GitLab Repo
 Follow the steps found here:
