@@ -5,6 +5,8 @@ Welcome to DataViz class!
 This is the bonus content repository for the Data Visualization class at the University of North Carolina, Chapel Hill. This repository contains additional content that is not necessarily covered in the class but may be useful for students who want to learn more about data visualization.
 
 ## Links to Bonus Content
+[Setting up your Git environment](https://github.com/simonkingaby/DataViz2024-Public/blob/main/Git/Instructions.md)
+
 [Setting up your Anaconda environment](https://github.com/simonkingaby/DataViz2024-Public/blob/main/Anaconda/Create%20a%20New%20Conda%20Environment.md)
 
 ## Homebrew Sudo Access
