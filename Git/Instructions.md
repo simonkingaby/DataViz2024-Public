@@ -46,7 +46,7 @@ Follow these steps:
 12) Under Select Scopes put a checkmark next to **repo**
 13) Scroll all the way down and click the green Generate Token button
 14) Now, you will see your token. It looks like this:
-		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
+		ghp_8s3*************************S338ZFk1
 15) Copy that to the clipboard with the copy button
 16) Open Notepad (from the start menu)
 17) Paste in the token.
@@ -62,7 +62,7 @@ Follow these steps:
 		You might need to go up a folder, type 
 		```cd ..```
 5) Make sure you are not in the UNC-VIRT folder
-![[Pasted image 20240629110100.png]]
+![Pasted image 20240629110100.png](https://github.com/simonkingaby/DataViz2024-Public/blob/main/Git/2024-06-29_11-00-53.png)
 7) Enter the commands
 ```bash
 git clone https://github.com/simonkingaby/DataViz2024-Public.git
@@ -98,7 +98,7 @@ Back in Git Bash, navigate to the DataViz2024 folder
 		You might need to go up a folder, type 
 		```cd ..```
 3) Make sure you are not in the UNC-VIRT or DataViz2024-Public folder
-![[Pasted image 20240629110100.png]]
+![Pasted image 20240629110100.png](https://github.com/simonkingaby/DataViz2024-Public/blob/main/Git/2024-06-29_11-00-53.png)
 4) Enter the commands
 ```bash
 git clone <paste in your URL here>
