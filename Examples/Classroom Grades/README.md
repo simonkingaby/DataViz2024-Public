@@ -2,7 +2,7 @@
 
 ## Real-world Challenge 1
 
-You work in the office of a local high school. You need to calculate the average grade per student, per section/teacher, and per class.
+You work in the office of a local high school. You need to calculate the average grade per student, per section/teacher, and per class. For example, you will need to create a worksheet for the English department, and in it you will list each section/teacher. For each section, list all the students and all their grades for assignments, the mid-term, and the final exam. You also need to calculate the final grade for each student, and the overall average for that section/teacher. Lastly, you will need a summary page that shows the section averages for each class, and the overall class average for all the sections.
 
 You will run a simulator to create the data. But imagine that this is an extract from the grading system that all the teachers use. The extract is a CSV that lists student data in a tabular format. Note: The simulator code was created by GenAI and debugged by me.
 
@@ -24,9 +24,11 @@ In order to generate the data for this exercise, I used GitHub Copilot. I starte
 
 *Science,Joe Brady,87,78,92,80,85,75,83,86,84,78,N/A,81*
 
+After several tries, and by dialing in the prompt, and debugging the code that GitHub Copilot gave me, I realizing that I needed to make the data more complicated, so I added multiple sections for each class/course of study.
+
 ## Final Prompt
 
-After a few revisions, I ended up on this prompt:
+After several revisions, I ended up with this prompt:
 
 *I need 20 classes of sample data. Each class has 2-8 sections of 22-35 students. Each section has a teacher. Each student has 7-10 graded assignments depending on the class. After 5 assignments, there is an Exam grade. At the end, there is a Final Exam grade. Grades range from 50-98. Please generate the sample data in csv format. For example:*
 
@@ -36,11 +38,9 @@ After a few revisions, I ended up on this prompt:
 
 *I need a Python function that will create the csv.*
 
-## Debugging and tweaking the generated code
+The code that was generated was very helpful, but also it was not quite right. GitHub Copilot did not get the loop counter right. After adjusting and debugging the code, I ended up with the code in the Create Data notebook. I decided to use a Jupyter Notebook file, instead of a .py Python file, because you don't have to drop to a command line to run the code.
 
-I wasn't able to get a perfect dataset with the code Copilot wrote, so I had to modify it a little. And debug it. But it was definitely a good start, and it saved me a ton of time.
-
-## Assignment
+## Your Assignment
 
 Run the Create Data python code to generate a sample dataset and save it as a CSV.
 
