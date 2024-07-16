@@ -14,7 +14,7 @@ conda activate DataViz
 conda install pandas
 conda install console_shortcut
 conda install -c conda-forge jupyterlab
-conda install matplotlib
+conda install -c conda-forge matplotlib
 pip install python-dotenv
 pip install jupyter --upgrade
 ```
