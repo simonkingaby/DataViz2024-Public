@@ -9,7 +9,7 @@ conda info -e
 ## Initial Setup for a new Data environment
 
 ``` Bash
-conda create --name DataViz python=3.11
+conda create --name DataViz python=3.12
 conda activate DataViz
 conda install pandas
 conda install console_shortcut
