@@ -24,7 +24,7 @@ pip install jupyter --upgrade
 ``` Bash
 python -m ipykernel install --user --name <other-env> --display-name "Python <ver.> (<other-env>)"
 For example,
-python -m ipykernel install --user --name DataViz --display-name "Python 3.11 (DataViz)"
+python -m ipykernel install --user --name DataViz --display-name "Python 3.12 (DataViz)"
 ```
 ### To remove a Kernel from Jupyter, simply run the following code:
 
