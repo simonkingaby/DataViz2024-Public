@@ -18,6 +18,8 @@ conda install -c conda-forge matplotlib
 pip install python-dotenv
 pip install jupyter --upgrade
 pip install ipympl
+conda install scipy
+conda install scikit-learn
 ```
 
 ## Create the kernel for VS Code/Jupyter
