@@ -20,6 +20,9 @@ pip install jupyter --upgrade
 pip install ipympl
 conda install scipy
 conda install scikit-learn
+conda install -c pyviz hvplot geoviews
+pip install census
+pip install citipy
 ```
 
 ## Create the kernel for VS Code/Jupyter
