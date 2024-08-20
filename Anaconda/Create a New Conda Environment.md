@@ -23,6 +23,8 @@ conda install scikit-learn
 conda install -c pyviz hvplot geoviews
 pip install census
 pip install citipy
+conda install -c anaconda sqlalchemy
+conda install -c anaconda sqlite
 ```
 
 ## Create the kernel for VS Code/Jupyter
