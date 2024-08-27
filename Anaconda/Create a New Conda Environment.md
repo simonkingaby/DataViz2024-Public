@@ -25,6 +25,11 @@ pip install census
 pip install citipy
 conda install -c anaconda sqlalchemy
 conda install -c anaconda sqlite
+pip install flask
+pip install "splinter[selenium4]"
+pip install bs4
+pip install html5lib
+pip install lxml
 ```
 
 ## Create the kernel for VS Code/Jupyter
