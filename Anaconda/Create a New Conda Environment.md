@@ -30,6 +30,7 @@ pip install "splinter[selenium4]"
 pip install bs4
 pip install html5lib
 pip install lxml
+pip install pymongo
 ```
 
 ## Create the kernel for VS Code/Jupyter
